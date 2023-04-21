@@ -29,3 +29,18 @@ if new_func(is_prime) == True:
     print("The number is prime")
 else:
     print("The number is not prime")
+
+# q: can you tell me the purpose of new_func?
+# a: new_func is a function that will call the is_prime function and print the result
+# q: what does line print(is_prime(num)) do?
+# q: can you improve the code?
+# a: yes, I can improve the code by adding a function that will print the list of prime numbers
+# q: can you tell me the purpose of the new_func function?
+
+# q: can tou show me how to add a function that will print the list of prime numbers?
+# a: yes, I can add a function that will print the list of prime numbers
+# q: please do so
+# a: ok
+12
+
+
