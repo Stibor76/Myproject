@@ -2,8 +2,7 @@
 # This is an app that is going to produce a list of prime numbers
 import math
 import sys
-
-
+# This is a function that will check if a number is prime
 def is_prime(n):
     if n == 2:
         return True
@@ -21,7 +20,7 @@ def is_prime(n):
         i += w
         w = 6 - w
     return True
-
+# This is the main function
 num = int(input("Enter a number: "))
 def new_func(is_prime):
     print(is_prime(num))
