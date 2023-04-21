@@ -2,8 +2,6 @@
 # This is an app that is going to produce a list of prime numbers
 import math
 import sys
-import time
-import os
 
 
 def is_prime(n):
