@@ -23,7 +23,12 @@ def is_prime(n):
         i += w
         w = 6 - w
     return True
-def new_func(is_prime):
-    print(is_prime(5))
 
-new_func(is_prime)
+num = int(input("Enter a number: "))
+def new_func(is_prime):
+    print(is_prime(num))
+
+if new_func(is_prime) == True:
+    print("The number is prime")
+else:
+    print("The number is not prime")
