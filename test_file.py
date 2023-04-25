@@ -22,10 +22,8 @@ def is_prime(n):
     return True
 # This is the main function
 num = int(input("Enter a number: "))
-def new_func(is_prime):
-    print(is_prime(num))
 
-if new_func(is_prime) == True:
+if is_prime(num) == True:
     print("The number is prime")
 else:
     print("The number is not prime")
